@@ -1,0 +1,92 @@
+{
+  "name": "myweather-app",
+  "version": "1.0.0",
+  "description": "My Simple Weather Web App",
+  "main": "index.js",
+  "proxy": "http://127.0.0.1:3000/",
+  "scripts": {
+    "setup": "npm install && bower install",
+    "setup:docker": "npm install && bower install weather-icons --allow-root",
+    "check": "npm-check --skip-unused",
+    "start": "npm run watch:server",
+    "build": "./node_modules/.bin/webpack",
+    "watch:server": "node -r dotenv/config ./src/server/index.js",
+    "compile": "babel --presets es2015,react -d lib/ src/",
+    "prepublish": "npm run compile",
+    "test:server": "jest server_test/*",
+    "test:react": "jest react_test/* --config=jest-react.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KennethWKZ/DigitalOceanCP.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "classes",
+    "nodejs",
+    "express",
+    "weather",
+    "geolocation"
+  ],
+  "author": "Kenneth Wong <kenneth09062004@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KennethWKZ/DigitalOceanCP/issues"
+  },
+  "homepage": "https://github.com/KennethWKZ/DigitalOceanCP.git#readme",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-react-views": "^0.10.5",
+    "external-ip": "^2.0.3",
+    "helmet": "^3.12.1",
+    "node-cache": "^4.2.0",
+    "node-fetch": "^2.1.2",
+    "node-notifier": "^5.2.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "reactify": "^1.1.1",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.0.1",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "bower": "^1.8.4",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "css-loader": "^0.28.11",
+    "enzyme": "^3.3.0",
+    "file-loader": "^1.1.11",
+    "jest": "^23.1.0",
+    "jsdom": "^11.11.0",
+    "mocha": "^5.2.0",
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.5",
+    "npm-check": "^5.7.1",
+    "npm-run-all": "^4.1.3",
+    "react-test-renderer": "^16.4.0",
+    "sass-loader": "^7.0.2",
+    "sinon": "^5.0.10",
+    "sinon-chai": "^3.1.0",
+    "style-loader": "^0.21.0",
+    "supertest": "^3.1.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.1"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "testEnvironment": "node",
+    "verbose": true
+  }
+}

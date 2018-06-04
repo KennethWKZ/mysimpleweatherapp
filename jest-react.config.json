@@ -1,0 +1,13 @@
+{
+    "moduleFileExtensions": [
+        "js",
+        "jsx"
+    ],
+    "moduleNameMapper": {
+      "Weather": "<rootDir>/src/client/components/Weather.jsx",
+      "applicationStyles": "<rootDir>/src/client/sass/main.scss",
+      "Style2": "<rootDir>/bower_components/weather-icons/css/weather-icons.min.css"
+    },
+    "testEnvironment": "jsdom",
+    "verbose": true
+  }

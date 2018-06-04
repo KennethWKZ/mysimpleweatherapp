@@ -1,0 +1,18 @@
+{
+  "name": "myweather-app",
+  "description": "My Simple Weather Web App",
+  "authors": [
+    "Kenneth Wong <kenneth09062004@gmail.com>"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "weather-icons": "^2.0.10"
+  }
+}

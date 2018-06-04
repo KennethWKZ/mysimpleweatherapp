@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+.env.example
+jest-react.config.json
+react_test
+server_test
+.git
+node_modules
+npm-debug.log
