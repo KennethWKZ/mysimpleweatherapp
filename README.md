@@ -1,6 +1,6 @@
 ## Node Js Weather App
 
-[![npm](https://img.shields.io/npm/l/express.svg)]
+![npm](https://img.shields.io/npm/l/express.svg)
 
 Node Js Weather App is a simple module for obtaining weather information.
 
@@ -8,7 +8,7 @@ Node Js Weather App is a simple module for obtaining weather information.
 
 #### Prerequisite
 
-You need to have [NodeJS](https://nodejs.org/en/) installed in your machine.
+You need to have [NodeJS](https://nodejs.org/en/) v8.10 installed in your machine.
 
 #### Add to CLI
 
