@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KennethWKZ/DigitalOceanCP.git"
+    "url": "git+https://github.com/KennethWKZ/mysimpleweatherapp.git"
   },
   "keywords": [
     "react",
@@ -32,9 +32,9 @@
   "author": "Kenneth Wong <kenneth09062004@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KennethWKZ/DigitalOceanCP/issues"
+    "url": "https://github.com/KennethWKZ/mysimpleweatherapp/issues"
   },
-  "homepage": "https://github.com/KennethWKZ/DigitalOceanCP.git#readme",
+  "homepage": "https://github.com/KennethWKZ/mysimpleweatherapp.git#readme",
   "dependencies": {
     "classnames": "^2.2.5",
     "dotenv": "^6.0.0",
