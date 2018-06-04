@@ -24,6 +24,8 @@ npm link
 ```
 npm run setup
 ```
+Create own .env file follow .env.example format.
+
 
 #### Run in local
 
